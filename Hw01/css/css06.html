@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @media(min-width:768px){
+            .container{
+            background-color: yellowgreen;
+            display: flex;
+            align-items: flex-end;
+             
+        }
+        .container div{
+            border: 1px solid black;
+            padding: 20px;
+        }
+        }
+       
+        .box-1{
+            flex: 2;
+            order: 2;
+        }
+        .box-2{
+            flex: 2;
+            order: 3;
+        }
+        .box-3{
+            flex: 1;
+            order: 1;
+        }
+        .container-2{
+            display: flex;
+            background-color: aqua;
+            justify-content: space-around;
+        }
+        .box-4{
+            padding: 20px;
+            border: 1px solid blueviolet;
+            width: 20%;
+        }
+    </style>
+</head>
+<body>
+  <div class="container">
+      <div class="box-1">
+          <h3>One</h3>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+               Unde, quidem! Quo voluptas aspernatur soluta quos ea. 
+               Facilis et sapiente, laboriosam culpa, ullam molestiae
+                omnis dolor vel harum voluptatem, eos magni.</p>
+      </div>
+      <div class="box-2">
+        <h3> Two</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+             Unde, quidem! Quo voluptas aspernatur soluta quos ea. 
+             Facilis et sapiente, laboriosam culpa, ullam molestiae
+              omnis dolor vel harum voluptatem, eos magni.</p>
+    </div>
+    <div class="box-3">
+        <h3> Three</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+             Unde, quidem! Quo voluptas aspernatur soluta quos ea. 
+             Facilis et sapiente, laboriosam culpa, ullam molestiae
+              omnis dolor vel harum voluptatem, eos magni.</p>
+    </div>
+  </div> 
+  <div class="container-2">
+      <div class="box-4">
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+              Voluptatibus quis, eum facere quam eligendi, asperiores 
+              tempora repellendus maiores voluptatum,
+               ad minus? Ad consectetur pariatur quo aliquam fugit facilis iusto sequi.</p>
+      </div>
+      <div class="box-4">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+            Voluptatibus quis, eum facere quam eligendi, asperiores 
+            tempora repellendus maiores voluptatum,
+             ad minus? Ad consectetur pariatur quo aliquam fugit facilis iusto sequi.</p>
+    </div>
+    <div class="box-4">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+            Voluptatibus quis, eum facere quam eligendi, asperiores 
+            tempora repellendus maiores voluptatum,
+             ad minus? Ad consectetur pariatur quo aliquam fugit facilis iusto sequi.</p>
+    </div>
+  </div> 
+</body>
+</html>
+ 

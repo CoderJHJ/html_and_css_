@@ -1,0 +1,171 @@
+ body{
+     background-color: grey;
+ }
+ .button{
+     background-color: black;
+     color: white;
+     padding: 10px;
+     border: none;
+ }
+ .button:hover{
+     background-color: red;
+     color: lime;
+ }
+ a{
+     text-decoration: none;
+     color:  black;
+ }
+ a:hover{
+     color: red;
+ }
+ a:active{
+     color:  green;
+ }
+ a:visited{
+     color: #345;
+ }
+ .clr{
+     clear: both;
+ }
+.box-1{
+    background-color: #345;
+    color: white;
+    border-right: 6px red solid ;
+    border: 4px red solid;
+    border-left: 4px red  solid;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    padding-left: 13px;
+    padding-right: 14px;
+    margin-top: 15px;  
+}
+.container{
+    width: 80%;
+    margin: auto;
+
+}
+.box-1 h1{
+    font-family: tahoma;
+    font-weight: 800;
+    font-style: italic;
+    text-decoration: underline;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    word-spacing: .8cm;
+    letter-spacing: 0.2cm;
+}
+.box-1 p{
+    text-align: justify;
+}
+.box-2{
+    background-color: #345;
+    color: white;
+    border-right: 6px red solid ;
+    border: 4px red solid;
+    border-left: 4px red  solid;
+    padding: 20px;
+    margin: 20px;
+}
+.box-2 h1{
+    text-align: center;
+}
+.box-2 p{
+    padding-top: 20px;
+    text-align: justify;
+}
+.categories{
+    border: 1px solid #335;
+    margin: 20px;
+    border-radius: 20px;
+}
+ .categories h2{
+     text-align: center;
+     text-decoration: underline;
+     text-transform: uppercase;
+     list-style: square;
+
+ }
+ .categories ul{
+     padding: 20px;
+      
+ }
+.categories ul li{
+    border-bottom:1px dotted  #335;
+}
+.myform{
+    padding: 20px;
+}
+.myform.formgroup{
+    padding: 15px;
+}
+.myform input[type="text"],.myform textarea{
+   padding: 10px;
+   width: 100%; 
+}
+.block{
+    width: 33.3%;
+    float: left;
+    border: 1px solid black;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.mainblock{
+    float: left;
+    margin: 20px;
+    width: 70%;
+    /*border: solid 1px black;*/
+    box-sizing: border-box;
+    padding: 10px;
+    
+}
+.slider{
+    float: right;
+    width: 30%;
+    box-sizing: border-box;
+    background-color:black;
+    color: white;
+}
+.slider p{
+    padding: 10px;
+    text-align: justify;
+}
+.pbox{
+    margin: 20px;
+    border: 1px solid black;
+    height: 400px;
+    position: relative;
+    background-image: url("../image/box01.jpg");
+    background-position: center center ;
+    background-repeat: no-repeat;
+}
+.pbox h1{
+    position: absolute;
+    top: 60px;
+    left: 10px;
+}
+.pbox h2{
+    position: absolute;
+    right: 50px;
+    bottom: 100px;
+}
+.fixme{
+    top: 400px;
+    left: 0px;
+    position: fixed;
+}
+.mylist{
+    margin-left: 40px;
+    list-style: none;
+}
+.mylist li:first-child{
+    color: red;
+    background-color: #335;
+}
+.mylist li:last-child{
+    color:green;
+    background-color: #156;
+}
+.mylist li:nth-child(even){
+    color:yellow;
+    background-color: #222;
+}
